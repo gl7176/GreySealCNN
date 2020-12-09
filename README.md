@@ -6,11 +6,12 @@ Each script pulls in files from a Google Drive folder <b> that you must specify 
 
 Pay attention to the markdown at the start of each script, which specifies what's needed to run the script. The markdown at the end of each script explains what's ahead, and how the outputs fit together in the next steps.
 
-Estimated time for each step:
-Step 1: < 5 minutes + time to download mosaic tiles (varies by mosaic size)
-Step 2: Multiple hours (varies depending on size of mosiac, number of annotations, ease of detecting annotations, familiarity with VIA)
-Step 3: < 1 minute
-Step 4: < 10 minutes in demo-mode (ranges much longer, depending on how long you train the model)
-Step 5: < 1 minute
+<b>Estimated time for each step:</b>
+
+<b>Step 1:</b> < 5 minutes + time to download mosaic tiles (varies by mosaic size) \
+<b>Step 2:</b> Multiple hours (varies depending on size of mosiac, number of annotations, ease of detecting annotations, familiarity with VIA) \
+<b>Step 3:</b> < 1 minute \
+<b>Step 4:</b> < 10 minutes in demo-mode (ranges much longer, depending on how long you train the model) \
+<b>Step 5:</b> < 1 minute \
 
 To start this workflow, create a google drive folder (it does not need to be your personal google account, you may want to create a new account to store these data). Create a folder on that drive and upload the orthomosaic you're working with (the default folder/mosaic is https://drive.google.com/drive/folders/1wuAONrdYYNylyb_ZV2hpd-SrYjk-UXty). Make sure the drive is shared publicly (so "anyone with the link can view") and be sure to point to your working folder's link in each script.
