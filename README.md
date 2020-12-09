@@ -2,6 +2,8 @@
 
 Repo using RetinaNet for seal detection in drone imagery along with a set of tools for using geospatial data with CNNs. All operations are executed Google Colab: for each script, click the "launch in Google Colab" button, and if you clone or fork this project be sure to update those pointer buttons in the markdown.
 
+Each script pulls in files from a Google Drive folder <b> that you must specify </b> and spits out files that will download in your browser as a zip archive that you must extract. When you move on to the next step <b> you must put these files into a Google Drive folder and point the next script to that folder </b>. It doesn't have to be the same drive folder, but it can be.
+
 ## The subsequent text is old stuff from Patrick's original scripts, I will update later but for now disregard. We aren't using Docker and local machines; it would not be too difficult to re-work our scripts, but that's not on my radar right now.
 
 
