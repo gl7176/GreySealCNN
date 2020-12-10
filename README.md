@@ -17,3 +17,5 @@ Pay attention to the markdown at the start of each script, which specifies what'
 You'll also spend a little time handling files between steps.
 
 To start this workflow, create a google drive folder (it does not need to be your personal google account, you may want to create a new account to store these data). Create a folder on that drive and upload the orthomosaic you're working with (the default folder/mosaic is https://drive.google.com/drive/folders/1wuAONrdYYNylyb_ZV2hpd-SrYjk-UXty). Make sure the drive is shared publicly (so "anyone with the link can view") and be sure to point to your working folder's link in each script.
+
+Note: workflow is designed for working on one mosaic at a time, but inputs and outputs can be merged/separated between steps to process multi-mosaic datasets.
