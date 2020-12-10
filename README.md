@@ -14,4 +14,6 @@ Pay attention to the markdown at the start of each script, which specifies what'
 <b>Step 4:</b> < 10 minutes in demo-mode (ranges much longer, depending on how long you train the model) \
 <b>Step 5:</b> < 1 minute \
 
+You'll also spend a little time handling files between steps.
+
 To start this workflow, create a google drive folder (it does not need to be your personal google account, you may want to create a new account to store these data). Create a folder on that drive and upload the orthomosaic you're working with (the default folder/mosaic is https://drive.google.com/drive/folders/1wuAONrdYYNylyb_ZV2hpd-SrYjk-UXty). Make sure the drive is shared publicly (so "anyone with the link can view") and be sure to point to your working folder's link in each script.
