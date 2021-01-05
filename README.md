@@ -1,6 +1,6 @@
-# Seal Detection using CNNs
+# Object Detection using CNNs
 
-This repo uses RetinaNet for seal detection in drone imagery, and includes a set of tools for using geospatial data with CNNs. All operations are currently written to be executed in Google Colab, though they can also be run on a local machine if you skip the first section and point to necessary input files. To run in Colab, if you are viewing in GitHub or locally in Jupyter Notebook, click the "launch in Google Colab" button at the top to launch the script in Google Colab instead. If you clone or fork this project be sure to update those pointer buttons in the markdown to link to your new version.
+This repo uses RetinaNet for object detection in remote sensing imagery (specifically, seals in a drone-derived orthomosaic), and includes a set of tools for using geospatial data with CNNs. Note that the scripts have been generalized to accommodate other uses beyond seals. All operations are currently written to be executed in Google Colab, though they can also be run on a local machine if you skip the first section and point to necessary input files. To run in Colab, if you are viewing in GitHub or locally in Jupyter Notebook, click the "launch in Google Colab" button at the top to launch the script in Google Colab instead. If you clone or fork this project be sure to update those pointer buttons in the markdown to link to your new version.
 
 You will need: \
 (1) a web browser \
