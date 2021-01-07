@@ -5,7 +5,7 @@ This repo uses RetinaNet for object detection in remote sensing imagery (specifi
 You will need: \
 (1) a web browser \
 (2) a google drive account (you can create and use a "dummy" account if you want) \
-(3) a file unzipper (such as [7-Zip](https://www.7-zip.org/), [WinRAR](https://www.win-rar.com/) or [WinZip](https://www.winzip.com/) \
+(3) a file unzipper (such as [7-Zip](https://www.7-zip.org/), [WinRAR](https://www.win-rar.com/) or [WinZip](https://www.winzip.com/) 
 
 Each script pulls in files from a Google Drive folder <b> that you must specify </b> and spits out files that will download in your browser, usually as a zip archive that you must extract. When you move on to the next script <b> you must put these files into a Google Drive folder and point the next script to that folder</b>. It doesn't have to be the same drive folder every time, but makes sense to do it that way, because many files get used multiple times in the workflow.
 
@@ -17,7 +17,7 @@ Pay attention to the markdown at the start of each script, which specifies what'
 <b>Step 2:</b> Multiple hours (varies depending on size of mosiac, number of annotations, ease of detecting annotations, familiarity with VIA) \
 <b>Step 3:</b> < 1 minute \
 <b>Step 4:</b> < 10 minutes in demo-mode (ranges much longer, depending on how long you train the model) \
-<b>Step 5:</b> < 1 minute \
+<b>Step 5:</b> < 1 minute 
 
 You'll also spend a little time handling files between steps.
 
