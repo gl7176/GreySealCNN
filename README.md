@@ -11,7 +11,7 @@ Each script pulls in files from a Google Drive folder <b> that you must specify 
 
 Pay attention to the markdown at the start of each script, which specifies what's needed to run the script. The markdown at the end of each script explains what's ahead, and how the outputs fit together in the next steps.
 
-<b>Note</b> that, as written, each script will prompt you to allow Google permissions to use Google Cloud SDK.
+<b>Note that, as written, each script will prompt you to allow Google permissions to use Google Cloud SDK.</b>  You will need to grant permissions and paste a code into an input box at the start of each script, when pulling files from Google Drive. After that, the code should run without requiring any further input.
 
 <b>Estimated time for each step:</b>
 
