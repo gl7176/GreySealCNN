@@ -7,7 +7,7 @@ You will need: \
 (2) a [google drive](https://www.google.com/intl/en/drive/) account (you can create and use a "dummy" account if you want) \
 (3) a file unzipper (such as [7-Zip](https://www.7-zip.org/), [WinRAR](https://www.win-rar.com/) or [WinZip](https://www.winzip.com/)) \
 \
-Each script pulls in files from a Google Drive folder <b> that you must specify </b> and spits out files that will download in your browser, usually as a zip archive that you must extract. When you move on to the next script <b> you must put these files into a Google Drive folder and point the next script to that folder</b>. It doesn't have to be the same drive folder every time, but makes sense to do it that way, because many files get used multiple times in the workflow.
+Each script pulls in files from a Google Drive folder <b> that you must specify, if using your own data, </b> and spits out files that will download in your browser, usually as a zip archive that you must extract. When you move on to the next script <b> you must put these files into a Google Drive folder and point the next script to that folder</b>. It doesn't have to be the same drive folder every time, but makes sense to do it that way, because many files get used multiple times in the workflow.
 
 Pay attention to the markdown at the start of each script, which specifies what's needed to run the script. The markdown at the end of each script explains what's ahead, and how the outputs fit together in the next steps.
 
