@@ -11,6 +11,8 @@ Each script pulls in files from a Google Drive folder <b> that you must specify 
 
 Pay attention to the markdown at the start of each script, which specifies what's needed to run the script. The markdown at the end of each script explains what's ahead, and how the outputs fit together in the next steps.
 
+<b>Note</b> that, as written, each script will prompt you to allow Google permissions to use Google Cloud SDK.
+
 <b>Estimated time for each step:</b>
 
 <b>Step 1:</b> < 5 minutes + time to download mosaic tiles (varies by mosaic size) \
