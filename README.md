@@ -29,4 +29,4 @@ Note: workflow is designed for working on one mosaic at a time, but inputs and o
 
 If you encounter any errors or have any questions, please reach out to Gregory Larsen at gdl10@duke.edu
 
-Code was written by Patrick Gray, Maddie Hayes and Greg Larsen with support from the Duke University Marine Robotics and Remote Sensing Lab.
+Code was written by Patrick Gray, Maddie Hayes and Gregory Larsen with support from the Duke University Marine Robotics and Remote Sensing Lab.
