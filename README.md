@@ -28,3 +28,5 @@ To start this workflow, create a google drive folder (it does not need to be you
 Note: workflow is designed for working on one mosaic at a time, but inputs and outputs can be merged/separated between steps to process multi-mosaic datasets.
 
 If you encounter any errors or have any questions, please reach out to Gregory Larsen at gdl10@duke.edu
+
+Code was written by Patrick Gray, Maddie Hayes and Greg Larsen with support from the Duke University Marine Robotics and Remote Sensing Lab.
