@@ -19,12 +19,12 @@ Pay attention to the markdown at the start of each script, which specifies what'
   <i>< 5 minutes + time to download mosaic tiles (varies by mosaic size)</i> \
 <b>[Step 2](https://colab.research.google.com/github/gl7176/GreySealCNN/blob/master/2_VIA_annotations.ipynb):</b> create training data \
   <i>Only necessary if creating your own training data. Multiple hours (varies depending on size of mosiac, number of annotations, ease of detecting annotations, familiarity with VIA)</i> \
-<b>[Step 3](https://colab.research.google.com/github/gl7176/GreySealCNN/blob/master/3_VIA_to_RetinaNet_subsetted.ipynb):</b> split tiles and associated training data into training, validation and testing subsets
+<b>[Step 3](https://colab.research.google.com/github/gl7176/GreySealCNN/blob/master/3_VIA_to_RetinaNet_subsetted.ipynb):</b> split tiles and associated training data into training, validation and testing subsets \
   <i>< 1 minute</i> \
-<b>[Step 4](https://colab.research.google.com/github/gl7176/GreySealCNN/blob/master/4_CNN_setup_training_testing.ipynb):</b> train and then test a CNN model
+<b>[Step 4](https://colab.research.google.com/github/gl7176/GreySealCNN/blob/master/4_CNN_setup_training_testing.ipynb):</b> train and then test a CNN model \
   <i>< 10 minutes in demo-mode (ranges much longer, depending on how long you train the model)</i> \
-<b>[Step 5](https://colab.research.google.com/github/gl7176/GreySealCNN/blob/master/5_export_outputs.ipynb):</b> clean and export the results as shapefiles
-  <i>< 1 minute</i>
+<b>[Step 5](https://colab.research.google.com/github/gl7176/GreySealCNN/blob/master/5_export_outputs.ipynb):</b> clean and export the results as shapefiles \
+  <i>< 1 minute</i> \
 
 You'll also spend a little time handling files between steps.
 
