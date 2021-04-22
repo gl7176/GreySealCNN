@@ -24,7 +24,7 @@ Pay attention to the markdown at the start of each script, which specifies what'
 <b>[Step 4](https://colab.research.google.com/github/gl7176/GreySealCNN/blob/master/4_CNN_setup_training_testing.ipynb):</b> train and then test a CNN model \
   <i>< 10 minutes in demo-mode (ranges much longer, depending on how long you train the model)</i> \
 <b>[Step 5](https://colab.research.google.com/github/gl7176/GreySealCNN/blob/master/5_export_outputs.ipynb):</b> clean and export the results as shapefiles \
-  <i>< 1 minute</i> \
+  <i>< 1 minute</i> 
 
 You'll also spend a little time handling files between steps.
 
