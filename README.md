@@ -1,17 +1,17 @@
 # Demonstration of Object Detection using a CNN
 
-This repo uses RetinaNet for object detection in remote sensing imagery (specifically, seals in a drone-derived orthomosaic), and includes a set of tools for using geospatial data with CNNs. Note that the scripts have been generalized to accommodate other uses beyond seals. All operations are currently written to be executed in Google Colab, though they can also be run on a local machine if you skip the first section and point to necessary input files. To run in Colab, if you are viewing in GitHub or locally in Jupyter Notebook, click the "launch in Google Colab" button at the top to launch the script in Google Colab instead. If you clone or fork this project be sure to update those pointer buttons in the markdown to link to your new version.
+This repo uses RetinaNet for object detection in remote sensing imagery (here, seals in a drone-derived orthomosaic), and includes a set of tools for using geospatial data with CNNs. The scripts have been generalized to accommodate other uses beyond seals with custom inputs. All operations are currently written to be executed in Google Colab, though they can be easily adapted to run on a local machine. To run in Colab, if you are viewing in GitHub or locally in Jupyter Notebook, click the "launch in Google Colab" button at the top to launch the script in Google Colab instead. If you clone or fork this project be sure to update those pointer buttons in the markdown to link to your new version.
 
 You will need: \
 (1) a web browser \
 (2) a [google drive](https://www.google.com/intl/en/drive/) account (you can create and use a "dummy" account if you want) \
 (3) a file unzipper (such as [7-Zip](https://www.7-zip.org/), [WinRAR](https://www.win-rar.com/) or [WinZip](https://www.winzip.com/)) \
 \
-Each script pulls in files from a Google Drive folder <b> that you must specify, if using your own data, </b> and spits out files that will download in your browser, usually as a zip archive that you must extract. When you move on to the next script <b> if using your own data you must put these files into a publicly shared Google Drive folder and point that script to that folder</b>. It doesn't have to be the same drive folder every time, but makes sense to do it that way, because many files get used multiple times in the workflow.
+Each script pulls in files from a Google Drive folder, <b> which you must specify, if using your own data, </b> and spits out files that will download in your browser, usually as a zip archive that you must extract. When you move on to the next script <b> if using your own data you must drop these files into a publicly shared Google Drive folder and point the script to that Google folder</b>. It doesn't have to be the same drive folder every time, but makes sense to do it that way because some files get used multiple times in the workflow.
 
 Pay attention to the markdown at the start of each script, which specifies what's needed to run the script. The markdown at the end of each script explains what's ahead, and how the outputs fit together in the next steps.
 
-<b>Note that each of these scripts will prompt you to allow Google permissions to use Google Cloud SDK.</b>  You will need to grant permissions and paste a code into an input box at the start of each script when pulling files from Google Drive. After that, the code should run smoothly without requiring any further input (though some variables require customization if using your own dataset).
+###<b>Note that each of these scripts will prompt you to allow Google permissions to use Google Cloud SDK.</b>  You will need to grant permissions and paste a code into an input box at the start of each script when pulling files from Google Drive. After that, the code should run smoothly without requiring any further input (though some variables require customization if using your own dataset).
 
 <b>Estimated time for each step:</b>
 
